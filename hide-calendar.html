@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+	<title>ZOOM</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div class="calendar-page hide-calendar">
+		<div class="event">
+			<span class="year">2016</span>
+			<span class="day">15<sup>TH</sup></span>
+			<div class="overflow">
+				<div class="list-move">
+					<ul class="month">
+						<li class="active"><a href="#">January</a></li>
+						<li><a href="#">February</a></li>
+						<li><a href="#">March</a></li>
+						<li><a href="#">April</a></li>
+						<li><a href="#">May</a></li>
+						<li><a href="#">June</a></li>
+						<li><a href="#">July</a></li>
+						<li><a href="#">August</a></li>
+						<li><a href="#">September</a></li>
+						<li><a href="#">October</a></li>
+						<li><a href="#">November</a></li>
+						<li><a href="#">December</a></li>
+					</ul>
+				</div>
+				<button class="prev" type="button">prev</button>
+				<button class="next" type="button">next</button>
+			</div>
+			<p>20 Appointments</p>
+		</div><!-- / event -->
+		<div class="calendar">
+			<table>
+				<tbody>
+					<tr class="days">
+						<td>Sun</td>
+						<td>Mon</td>
+						<td>Tue</td>
+						<td>Wed</td>
+						<td>Thu</td>
+						<td>Fri</td>
+						<td>Sat</td>
+					</tr>
+					<tr>
+						<td class="last-month"><a href="#">27</a></td>
+						<td class="event-day last-month"><a href="#">28</a></td>
+						<td class="event-day last-month"><a href="#">29</a></td>
+						<td class="last-month"><a href="#">30</a></td>
+						<td class="last-month"><a href="#">31</a></td>
+						<td><a href="#">1</a></td>
+						<td><a href="#">2</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">3</a></td>
+						<td><a href="#">4</a></td>
+						<td class="event-day"><a href="#">5</a></td>
+						<td class="event-day"><a href="#">6</a></td>
+						<td class="event-day"><a href="#">7</a></td>
+						<td><a href="#">8</a></td>
+						<td><a href="#">9</a></td>
+					</tr>
+					<tr>
+						<td class="event-day"><a href="#">10</a></td>
+						<td><a href="#">11</a></td>
+						<td><a href="#">12</a></td>
+						<td><a href="#">13</a></td>
+						<td><a href="#">14</a></td>
+						<td class="this-day"><a href="#">15</a></td>
+						<td><a href="#">16</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">17</a></td>
+						<td><a href="#">18</a></td>
+						<td><a href="#">19</a></td>
+						<td><a href="#">20</a></td>
+						<td><a href="#">21</a></td>
+						<td><a href="#">22</a></td>
+						<td><a href="#">23</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">24</a></td>
+						<td><a href="#">25</a></td>
+						<td><a href="#">26</a></td>
+						<td><a href="#">27</a></td>
+						<td><a href="#">28</a></td>
+						<td><a href="#">29</a></td>
+						<td><a href="#">30</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- / calendar -->
+		<section class="event-list">
+			<header class="header">
+				<h2>Friday/15 aug - appointments</h2>
+			</header><!-- /header -->
+			<ul class="list-control">
+				<li>
+					<ul class="control">
+						<li>
+							<a href="#" class=" ctrl add">add</a>
+						</li>
+						<li>
+							<a href="#" class=" ctrl remove">remove</a>
+						</li>
+						<li>
+							<a href="#" class=" ctrl edit">edit</a>
+						</li>
+					</ul>
+					<div class="list-desc">
+						<span>Meet UX Designer</span>
+						<small>Simple UI Kit</small>
+					</div>
+				</li>
+				<li>
+					<ul class="control">
+						<li>
+							<a href="#" class="ctrl add active">add</a>
+						</li>
+						<li>
+							<a href="#"  class="ctrl remove">remove</a>
+						</li>
+						<li>
+							<a href="#" class="ctrl edit">edit</a>
+						</li>
+					</ul>
+					<div class="list-desc">
+						<span>Development Meeting</span>
+						<small>Simple UI Kit</small>
+					</div>
+				</li>
+				<li>
+					<ul class="control">
+						<li>
+							<a href="#" class="ctrl add">add</a>
+						</li>
+						<li>
+							<a href="#" class="ctrl remove active">remove</a>
+						</li>
+						<li>
+							<a href="#" class="ctrl edit">edit</a>
+						</li>
+					</ul>
+					<div class="list-desc">
+						<span>Meet UI Designer</span>
+						<small>Simple UI Kit</small>
+					</div>
+				</li>
+				<li>
+					<ul class="control">
+						<li>
+							<a href="#" class="ctrl add">add</a>
+						</li>
+						<li>
+							<a href="#" class="ctrl remove">remove</a>
+						</li>
+						<li>
+							<a href="#" class="ctrl edit active">edit</a>
+						</li>
+					</ul>
+					<div class="list-desc">
+						<span>Development Meeting</span>
+						<small>Simple UI Kit</small>
+					</div>
+				</li>
+			</ul>
+		</section><!-- / event-list -->
+	</div><!-- / calendar-page -->
+</div><!-- wrapper -->
+</body>
+</html>
